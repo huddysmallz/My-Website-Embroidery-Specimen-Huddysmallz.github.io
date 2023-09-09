@@ -1,0 +1,99 @@
+header h1 {
+    color: darkred;
+}
+
+header img#banner {
+    height: 150px;
+}
+
+header img#whatsapp {
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+#telephone {
+    color: red;
+}
+
+header img#instagram {
+    height: 20px;
+    width: 20px;
+    display: flex;
+}
+
+#address {
+    color: red;
+}
+   .navbar {
+        width: 60%;
+        height: 30px;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+}
+
+    body {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5TozE2VDz11_PKjsXFYVs7qYPt-ozKdp4A&usqp=CAU);
+        background-position: center;
+        background-size: cover;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    details:hover {
+        color: darkred;
+    }
+
+    a:hover {
+        color: darkred;
+    }
+
+    li a:hover {
+        color: darkorange;
+    }
+
+    .toggle {
+        height: 20px;
+        font-weight: 100;
+        color: beige;
+        font-size: medium;
+    }
+
+    .STARTED:hover {
+        color: darkorange;
+    }
+
+    .STARTED {
+        background-color: darkred;
+        color: beige;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        border-radius: 20ox;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+    body img {
+      width: 300px;
+      height: 300px;
+    }
+    body img#product {
+        display: flex;
+        background-color: darkred;
+    }
+    footer {
+        text-align: end;
+    }
